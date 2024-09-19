@@ -1,0 +1,46 @@
+.mainCont {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+}
+
+.cardButton {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition:
+        transform 0.3s,
+        box-shadow 0.3s;
+    text-align: center;
+}
+
+.cards:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.cards img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-top: 8px;
+}
+
+.cards div {
+    margin-top: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: capitalize;
+}

@@ -1,0 +1,39 @@
+body {
+  background-color: yellow;
+}
+
+.mainCont {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 10px;
+  height: 400px;
+  width: 700px;
+  background-color: wheat;
+  margin: 0 auto;
+  margin-top: 10%;
+}
+
+.cardButton {
+  all: unset;
+  cursor: pointer;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100px;
+  background-color: aqua;
+  border-radius: 20px;
+  box-shadow: 0 0 10px black;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.cards img {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+}
